@@ -22,7 +22,7 @@ uploaded_file = st.file_uploader("Upload an image")
 if uploaded_file is not None:
     image_bytes = uploaded_file.read()
     img = cv.imdecode(np.frombuffer(image_bytes, dtype=np.uint8), cv.IMREAD_COLOR)
-    normalized_image = np.expand_dims(cv.resize(cv.cvtColor(img, cv.COLOR_BGR2RGB), (150, 150)), axis=0)
+    normalized_image = np.expand_dims(cv.resize(cv.cvtColor(img, cv.COLOR_BGR2RGB), (250, 250)), axis=0)
     predictions = model.predict(normalized_image)
     st.image(image_bytes)
     if predictions[0][np.argmax(predictions)]*100 >= 80:
