@@ -4,7 +4,7 @@ import numpy as np
 import keras
 
 
-label_name = ['Apple  rust', 'Apple healthy','Apple Scab']
+label_name = ['Apple  rust','Apple Scab', 'Apple healthy']
 
 st.write("""The leaf disease detection model is built using deep learning techniques, and it uses transfer learning to leverage the pre-trained knowledge of a base model. The model is trained on a dataset containing images of more than 2000 different Apple leaves . For more information about the architecture, dataset, and training process, please refer to the code and Documents""")              
 
