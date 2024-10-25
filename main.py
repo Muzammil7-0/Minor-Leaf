@@ -16,7 +16,8 @@ For more details on the model architecture and training process, please refer to
 st.write("Please input only Apple leaf images. Otherwise, the model may not work perfectly.")
 
 # Load pre-trained ViT model for feature extraction
-vit_model = keras.models.load_model('vit.h5')
+vit_model = keras.models.load_model('Training/model/vit.h5')
+
 
 # Load the SVM-PCA model (this assumes you have a pre-trained SVM model saved using pickle)
 with open('svm_pca_model.pkl', 'rb') as f:
