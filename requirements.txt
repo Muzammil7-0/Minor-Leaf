@@ -2,7 +2,7 @@ tensorflow==2.14.0
 tensorflow-addons==0.23.0
 vit-keras==0.1.2
 numpy>=1.18.5
-streamlit>=1.27.1
+streamlit
 opencv-python>=4.7.0.68
 matplotlib>=3.3.2
 scikit-learn>=0.24.2
