@@ -1,3 +1,4 @@
+pip==24.2
 absl-py==1.4.0
 tensorflow==2.15.0
 h5py==3.12.1
