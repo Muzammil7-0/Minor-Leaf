@@ -3,6 +3,7 @@ import cv2 as cv
 import numpy as np
 import keras
 import pickle
+import os
 
 # Define label names
 label_name = ['Apple Scab', 'Apple Rust', 'Apple Healthy']
