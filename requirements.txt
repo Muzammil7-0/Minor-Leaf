@@ -1,8 +1,9 @@
 tensorflow==2.12.0
 keras==2.12.0
-numpy>=1.18.5
-streamlit>=1.27.1
-opencv-python>=4.7.0.68
-matplotlib>=3.3.2
-scikit-learn>=0.24.2
-flask>=1.1.2
+numpy==1.22.0
+streamlit==1.27.1
+opencv-python==4.7.0.68
+matplotlib==3.3.2
+scikit-learn==0.24.2
+flask==1.1.2
+h5py==3.6.0  # Add this if you're using h5 files
