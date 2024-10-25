@@ -1,6 +1,6 @@
 pip==24.2
 absl-py==1.4.0
-tensorflow==2.15.0
+tensorflow==2.16.1
 h5py==3.12.1
 numpy==1.26.4
 pandas==2.2.2
