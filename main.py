@@ -17,7 +17,7 @@ For more details on the model architecture and training process, please refer to
 st.write("Please input only Apple leaf images. Otherwise, the model may not work perfectly.")
 
 # Load pre-trained ViT model for feature extraction
-model_path = 'Training\model\vit.h5'
+model_path = 'Training\model\Vit.h5'
 if os.path.exists(model_path):
     vit_model = keras.models.load_model(model_path)
     st.success("Model loaded successfully!")
